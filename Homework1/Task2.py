@@ -1,6 +1,6 @@
-def finding_max(example_list):
+def finding_max(example_list=[]):
    maximum = example_list[0]
-   for i in example_list:
+   for i in lst:
       if maximum <= i:
          maximum = i
    print(maximum)
