@@ -26,9 +26,13 @@ class Car:
         return self.__is_sport_car
 
     def change_color(self,new_color):
-        self.__color=new_color
-        return self.__color
+        if self.__color!=new_color:
+            self.__color = new_color
+            return True
+        return False
 
     def increase_horse_power(self,hp):
-        self.__horse_power+=hp
-        return self.__horse_power
+        if hp>0:
+            self.__horse_power += hp
+            return True
+        return False
