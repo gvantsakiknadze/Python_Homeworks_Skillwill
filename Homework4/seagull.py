@@ -13,7 +13,7 @@ class Seagull(Animal):
 
     @staticmethod
     def to_communicate():
-        return "I am human,and I can fly"
+        return "I am seagull,and I can fly"
 
     @staticmethod
     def can_fly():
